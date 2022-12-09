@@ -45,7 +45,6 @@ div.Content {
 
 div a:hover {
   color: 000000;
-  background-color: ffffff;
   text-shadow: 3px 3px 5px #000000;
 }
 
@@ -58,7 +57,7 @@ h1#pageTitle {
   border-width: 5px;
   padding: 5px;
   text-align: center;
-  background-image: url("sky.jpg");
+  background-image: url("Assets/sky.jpg");
 }
 
 h1 {
@@ -168,14 +167,14 @@ img.image:hover {
   margin-top: 10px;
   margin: 0 auto;
   transition: background-image 1s ease-in-out;
-  background-image: url("Macaron.jpg");
+  background-image: url("Assets/Macaron.jpg");
   width: 40%;
   height: 25vw;
   background-size: 100% 100%;
 }
 
 .imageBaking:hover {
-  background-image: url("Choux.jpg");
+  background-image: url("Assets/Choux.jpg");
 }
 
 .imageCooking {
@@ -183,14 +182,14 @@ img.image:hover {
   margin-top: 10px;
   margin: 0 auto;
   transition: background-image 1s ease-in-out;
-  background-image: url("Chaofan.jpg");
+  background-image: url("Assets/Chaofan.jpg");
   width: 40%;
   height: 25vw;
   background-size: 100% 100%;
 }
 
 .imageCooking:hover {
-  background-image: url("Dumpling.jpg");
+  background-image: url("Assets/Dumpling.jpg");
 }
 
 font#number {
