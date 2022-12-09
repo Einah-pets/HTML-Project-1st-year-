@@ -1,0 +1,269 @@
+.menubar {
+  position: sticky;
+  top: 0;
+  background-color: 00cccc;
+  text-align: center;
+  padding: 1vw;
+  font-size: 2.2vw;
+  border-bottom: solid;
+}
+
+.pages {
+  background-color: a3c2c2;
+  border: 2px black double;
+  width: 30%;
+  margin-bottom: 7;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+  font-size: 2vw;
+  font-family: forte;
+}
+
+.pages:hover {
+  font-size: 120%;
+  background-color: d1e0e0;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+div a.linkPages:hover {
+  color: ff66cc;
+  text-shadow: 1px 1px 2px #ffff66;
+  background-color: d1e0e0;
+}
+
+div.Content {
+  background-color: e6e6ff;
+  border: inset;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15px;
+  padding: 35px;
+  line-height: 1.6;
+  font-size: 1.3vw;
+}
+
+div a:hover {
+  color: 000000;
+  background-color: ffffff;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+h1.websiteTitle {
+  text-align: center;
+  font-size: 5vw;
+}
+h1#pageTitle {
+  border-style: dotted solid;
+  border-width: 5px;
+  padding: 5px;
+  text-align: center;
+  background-image: url("sky.jpg");
+}
+
+h1 {
+  font-family: impact;
+}
+
+h3,
+h2 {
+  font-family: impact;
+  color: 00cccc;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+h2.activityTitle {
+  padding: 20px;
+  text-align: center;
+  font-size: 5vw;
+  font-family: forte;
+  color: ffffff;
+}
+
+body#body {
+  background-color: cceeff;
+  font-family: arial;
+}
+
+p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+p a {
+  font-size: 25px;
+  color: ffff66;
+  font-family: gabriola;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+a.hyperlink {
+  font-style: italic;
+  color: ff0066;
+  font-family: gabriola;
+  font-size: 23px;
+}
+
+a.hyperlink:hover {
+  color: 000000;
+  background-color: ffffff;
+  text-shadow: 3px 3px 5px #000000;
+}
+a.top {
+  font-family: forte;
+  margin-left: 80%;
+}
+
+a.top:hover {
+  font-size: large;
+}
+ol,
+ul {
+  font-size: 15px;
+}
+a.uni {
+  font-family: elephant;
+  color: 00cccc;
+}
+
+a:hover {
+  text-shadow: 1px 1px 5px;
+}
+a h2 {
+  color: 000000;
+  font-family: impact;
+  text-shadow: 0px 0px;
+}
+
+a h2:hover {
+  text-shadow: 1px 1px 2px #ffff66;
+}
+
+ol li {
+  line-height: 5vw;
+}
+
+li font {
+  font-size: 18px;
+  text-shadow: 1px 1px 3px #ff0066;
+}
+
+img.image:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+
+.imageBeach {
+  margin-left: 10vw;
+  transition: 0.5s ease-in-out;
+  width: 30vw;
+  display: inline-block;
+}
+
+.imageBeach:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+
+.imageBaking {
+  text-align: center;
+  margin-top: 10px;
+  margin: 0 auto;
+  transition: background-image 1s ease-in-out;
+  background-image: url("Macaron.jpg");
+  width: 40%;
+  height: 25vw;
+  background-size: 100% 100%;
+}
+
+.imageBaking:hover {
+  background-image: url("Choux.jpg");
+}
+
+.imageCooking {
+  text-align: center;
+  margin-top: 10px;
+  margin: 0 auto;
+  transition: background-image 1s ease-in-out;
+  background-image: url("Chaofan.jpg");
+  width: 40%;
+  height: 25vw;
+  background-size: 100% 100%;
+}
+
+.imageCooking:hover {
+  background-image: url("Dumpling.jpg");
+}
+
+font#number {
+  color: red;
+  font-size: xx-large;
+  font-family: impact;
+}
+
+.ombre {
+  text-shadow: 2px 2px 6px #000000;
+  font-size: 18px;
+}
+
+#pinkie {
+  color: ff0066;
+  font-family: gabriola;
+  font-size: 25px;
+}
+
+#blue {
+  color: 0066cc;
+  font-family: elephant;
+  text-shadow: 1px 1px 5px;
+}
+
+#blueish {
+  font-size: 18px;
+  background-color: 99bbff;
+  color: ffffff;
+  border: outset 2px;
+  padding: 3px;
+}
+
+#blueish:hover {
+  color: ffffff;
+  text-shadow: 2px 2px 2px #000000;
+  border: inset 2px;
+  padding: 3px;
+}
+
+#button {
+  border: outset;
+  background-color: dddddd;
+  padding: 2px;
+}
+
+#button:hover {
+  border: inset;
+  color: 000000;
+}
+
+.activityType {
+  background-color: ffe6ff;
+  border: 2px black double;
+  width: 20%;
+  margin-left: 20vw;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+  font-size: 1.5vw;
+  font-family: forte;
+}
+
+td img {
+  width: 20vw;
+}
+
+td h4 {
+  color: ffffff;
+  font-family: gabriola;
+  text-align: center;
+}
+
+td h4:hover {
+  color: red;
+}
